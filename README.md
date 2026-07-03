@@ -633,13 +633,10 @@ h1, h2, .serif { font-family: 'Amiri', serif; }
   const yy = String(now.getFullYear()).slice(2);
   document.getElementById('inv-num').textContent = yy + mm + dd + '03';
 
-  const opts = { year:'numeric', month:'long', day:'numeric' };
-  const ar = now.toLocaleDateString('ar-SA', opts);
+  const ar = '٦ محرم ١٤٤٨ هـ';
   document.getElementById('inv-date').textContent = ar;
   document.getElementById('client-date').textContent = ar;
 </script>
 
 </body>
 </html>
-
-عرض سعر تصميم هوية بصرية
